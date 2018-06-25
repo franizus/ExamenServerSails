@@ -27,6 +27,12 @@ module.exports = {
 	nombreEditorial: {
       type: 'string'
     },
+    latitud: {
+      type: 'number'
+    },
+    longitud: {
+      type: 'number'
+    },
     autorId: {
       model: 'Autor'
     }
